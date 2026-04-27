@@ -16,7 +16,7 @@ const server = http.createServer(app);
 const io = socketIo(server, { cors: { origin: '*' } });
 
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/strangertext';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://abdullahscofield34_db_user:kN6PES7uK!TJgzH@cluster0.rbmtxqt.mongodb.net/?appName=Cluster0';
 const JWT_SECRET = process.env.JWT_SECRET || 'strangertext_secret_2024';
 const ADMIN_IP = process.env.ADMIN_IP || '176.42.131.129';
 
